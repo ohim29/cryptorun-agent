@@ -1,0 +1,5 @@
+{
+  "version": 2,
+  "builds": [{ "src": "api/agent.js", "use": "@vercel/node" }],
+  "routes": [{ "src": "/api/agent", "dest": "/api/agent.js" }]
+}
