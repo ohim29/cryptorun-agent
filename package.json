@@ -1,0 +1,6 @@
+{
+  "name": "agent-backend-starter",
+  "type": "module",
+  "private": true,
+  "dependencies": {}
+}
