@@ -1,0 +1,8 @@
+{
+  "version": 2,
+  "functions": {
+    "api/agent.js": { "runtime": "nodejs20.x" }
+  },
+  "regions": ["iad1", "pdx1", "sfo1"],
+  "routes": [{ "src": "/api/agent", "dest": "/api/agent.js" }]
+}
